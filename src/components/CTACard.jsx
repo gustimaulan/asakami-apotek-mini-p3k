@@ -13,10 +13,23 @@ const CTACard = () => {
     }
   };
 
-  const handleWhatsapp = () => {
+  const handleWhatsapp1 = () => {
     const phoneNumber = "6285227713001";
     const message =
-      "Halo kak, Saya mau info produk Apotek Mini-nya dong kak";
+      "Halo kak, Saya mau info produk Apotek Mini P3K-nya dong kak";
+
+    fbq("track", "AddToCart");
+
+    window.open(
+      `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+        message
+      )}`
+    );
+  };
+  const handleWhatsapp2 = () => {
+    const phoneNumber = "6285227713001";
+    const message =
+      "Halo kak, Saya mau info produk Apotek Mini by Request-nya dong kak";
 
     fbq("track", "AddToCart");
 
@@ -43,7 +56,7 @@ const CTACard = () => {
             </div>
           </div>
           <button
-            onClick={handleWhatsapp}
+            onClick={handleWhatsapp1}
             className="w-full my-4 py-2 px-4 text-sm rounded-md shadow-md bg-purple-900 text-white hover:bg-blue-950"
           >
             PESAN SEKARANG
@@ -60,7 +73,7 @@ const CTACard = () => {
             <p className="text-purple-900 font-bold">Rp Hubungi Kami</p>
           </div>
           <button
-            onClick={handleWhatsapp}
+            onClick={handleWhatsapp2}
             className="w-full my-4 py-2 px-4 text-sm rounded-md shadow-md bg-purple-900 text-white hover:bg-blue-950"
           >
             PESAN SEKARANG
