@@ -4,19 +4,12 @@ import ProductDetail from "../components/ProductDetail";
 import CTA from "../components/CTA";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
-import other from "../utils/other.js";
-
-//import Swal from "sweetalert2";
+import Facebook from "../tracking/facebook";
 
 const HomePage = () => {
-  useEffect(() => {
-    // Swal.fire({
-    //   title: "Garansi Tukar Ukuran!",
-    //   text: "Nikmati garansi tukar ukuran sepuasnya untuk kepuasan belanjamu!",
-    // });
-  }, []);
   return (
     <div className="bg-white">
+      <Facebook />
       <ProductCard />
       <ProductDetail />
       <CTA />
