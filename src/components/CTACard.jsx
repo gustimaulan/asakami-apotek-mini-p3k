@@ -43,7 +43,7 @@ const CTACard = () => {
   return (
     <div>
       <div className="grid grid-cols-2 gap-2">
-        <div className="mt-4 p-2 rounded-md border-2">
+        <div className="mt-4">
           <img className="mb-2" src={slider[0].img} alt={slider[0].title} />
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             PAKET 1
@@ -62,7 +62,7 @@ const CTACard = () => {
             PESAN SEKARANG
           </button>
         </div>
-        <div className="mt-4 p-2 rounded-md border-2">
+        <div className="mt-4">
           <img className="mb-2" src="/custom-kit.jpeg" alt="custom kit" />
           <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
             PAKET 2
