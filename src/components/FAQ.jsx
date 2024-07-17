@@ -3,7 +3,7 @@ import faqs from "../utils/faq";
 
 const FAQ = () => {
   return (
-    <div className="py-4 px-2">
+    <div className="py-4 px-2 border-t-2">
       <h1 className="text-xl text-center font-bold text-black-900">
         FAQ <br />
         Pertanyaan Yang Sering Ditanyakan

@@ -13,7 +13,9 @@ const CTA = () => {
         <img src="../guarantee.png" alt="bank" />
         <img src="../lock.png" alt="lock" />
       </div>
-      
+      <div className="flex items-center justify-center">
+        <img src="../panah-gif.gif" alt="panah gif" />
+      </div>
       <CTACard />
     </div>
   );
