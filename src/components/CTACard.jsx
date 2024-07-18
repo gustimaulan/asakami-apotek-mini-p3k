@@ -23,7 +23,7 @@ const CTACard = () => {
 
      // Track AddToCart event with TikTok Pixel
       if (window.ttq) {
-        window.ttq.track('AddToCart');
+        window.ttq.track('Contact');
       }
 
     window.open(
@@ -42,7 +42,7 @@ const CTACard = () => {
 
       // Track AddToCart event with TikTok Pixel
       if (window.ttq) {
-        window.ttq.track('AddToCart');
+        window.ttq.track('Contact');
       }
 
     window.open(
