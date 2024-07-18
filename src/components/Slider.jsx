@@ -17,10 +17,6 @@ const Slider = () => {
       pagination={{
         dynamicBullets: true,
       }}
-      autoplay={{
-        delay: 3000, // Delay between slides in milliseconds
-        disableOnInteraction: false, // Allow autoplay even after user interaction
-      }}
       slidesPerView={1}
       className="mySwiper pb-8"
     >

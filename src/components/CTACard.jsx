@@ -18,7 +18,13 @@ const CTACard = () => {
     const message =
       "Halo kak, Saya mau info produk Apotek Mini P3K-nya dong kak";
 
-    fbq("track", "AddToCart");
+     // Track AddToCart event with Facebook Pixel
+     fbq("track", "AddToCart");
+
+     // Track AddToCart event with TikTok Pixel
+      if (window.ttq) {
+        window.ttq.track('AddToCart');
+      }
 
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
@@ -31,7 +37,13 @@ const CTACard = () => {
     const message =
       "Halo kak, Saya mau info produk Apotek Mini by Request-nya dong kak";
 
-    fbq("track", "AddToCart");
+     // Track AddToCart event with Facebook Pixel
+     fbq("track", "AddToCart");
+
+      // Track AddToCart event with TikTok Pixel
+      if (window.ttq) {
+        window.ttq.track('AddToCart');
+      }
 
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
