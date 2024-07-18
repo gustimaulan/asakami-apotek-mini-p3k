@@ -21,7 +21,7 @@ const CTACard = () => {
      // Track AddToCart event with Facebook Pixel
      fbq("track", "AddToCart");
 
-     // Track AddToCart event with TikTok Pixel
+     // Track Contact event with TikTok Pixel
       if (window.ttq) {
         window.ttq.track('Contact');
       }
@@ -37,7 +37,7 @@ const CTACard = () => {
     const message =
       "Halo kak, Saya mau info produk Apotek Mini by Request-nya dong kak";
 
-     // Track AddToCart event with Facebook Pixel
+     // Track Contact event with Facebook Pixel
      fbq("track", "AddToCart");
 
       // Track AddToCart event with TikTok Pixel
