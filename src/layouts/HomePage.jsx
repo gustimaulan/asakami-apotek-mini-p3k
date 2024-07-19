@@ -10,14 +10,14 @@ import TikTok from "../tracking/tiktok";
 const HomePage = () => {
   return (
     <div className="bg-white">
-      <Facebook />
-      <TikTok />
       <ProductCard />
       <ProductDetail />
       <CTA />
       <FAQ />
       <img src="/asakami-front.jpg" alt="asakami" />
       <Footer />
+      <Facebook />
+      <TikTok />
     </div>
   );
 };
