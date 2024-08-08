@@ -1,6 +1,4 @@
 import React from "react";
-import detail from "../utils/detail.js";
-import other from "../utils/other.js";
 import productItems from "../utils/productItems.js";
 
 const ProductDetail = () => {
